@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1070</width>
+    <height>604</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>The Monkey King</string>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="statusTip">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QTableWidget" name="tb_molecule">
+        <property name="maximumSize">
+         <size>
+          <width>400</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Molecule</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Structure</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>SMILES</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Type:</string>
+          </property>
+          <widget class="QRadioButton" name="radio_lead">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>0</y>
+             <width>63</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Lead</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radio_drug">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>0</y>
+             <width>64</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Drug</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radio_fragment">
+           <property name="geometry">
+            <rect>
+             <x>230</x>
+             <y>0</y>
+             <width>96</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Fragment</string>
+           </property>
+          </widget>
+          <zorder>radio_lead</zorder>
+          <zorder>radio_drug</zorder>
+          <zorder>radio_fragment</zorder>
+          <zorder>Property</zorder>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTabWidget" name="Property">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab">
+           <attribute name="title">
+            <string>General</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QTableWidget" name="table_general">
+              <attribute name="horizontalHeaderStretchLastSection">
+               <bool>false</bool>
+              </attribute>
+              <row>
+               <property name="text">
+                <string>Molecular weight</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>logP</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>MR</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Aqueous solubility</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>HB donor</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>HB acceptor</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Number of atoms</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>TPSA</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Number of Rotatable bonds</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Number of heavy atoms</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>SASA</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Molecular volume</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>Value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Rcommended value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+              <item row="0" column="1">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="0" column="2">
+               <property name="text">
+                <string>Molecular Weight</string>
+               </property>
+              </item>
+              <item row="1" column="1">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="1" column="2">
+               <property name="text">
+                <string>Partition coefficient</string>
+               </property>
+              </item>
+              <item row="2" column="1">
+               <property name="text">
+                <string>40 to 130</string>
+               </property>
+              </item>
+              <item row="2" column="2">
+               <property name="text">
+                <string>Molar refractivity</string>
+               </property>
+              </item>
+              <item row="3" column="1">
+               <property name="text">
+                <string>-6.5 to 0.5</string>
+               </property>
+              </item>
+              <item row="3" column="2">
+               <property name="text">
+                <string>log S. S in mol/dm³ is the concentration of the solute in a saturated solution that is in equilibrium with the crystalline solid.</string>
+               </property>
+              </item>
+              <item row="4" column="1">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="4" column="2">
+               <property name="text">
+                <string>Number of hydrogen bonding donor.</string>
+               </property>
+              </item>
+              <item row="5" column="0">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="5" column="1">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="5" column="2">
+               <property name="text">
+                <string>Number of hydrogen bonding acceptor.</string>
+               </property>
+              </item>
+              <item row="6" column="1">
+               <property name="text">
+                <string>20 to 70</string>
+               </property>
+              </item>
+              <item row="6" column="2">
+               <property name="text">
+                <string>Number of atoms.</string>
+               </property>
+              </item>
+              <item row="7" column="1">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="7" column="2">
+               <property name="text">
+                <string>Topological polar surface area</string>
+               </property>
+              </item>
+              <item row="8" column="1">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="8" column="2">
+               <property name="text">
+                <string>Number of rotatable bonds</string>
+               </property>
+              </item>
+              <item row="9" column="2">
+               <property name="text">
+                <string>Number of heavy atoms</string>
+               </property>
+              </item>
+              <item row="10" column="1">
+               <property name="text">
+                <string>-</string>
+               </property>
+               <property name="textAlignment">
+                <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+               </property>
+              </item>
+              <item row="10" column="2">
+               <property name="text">
+                <string>Solvent accessible surface area</string>
+               </property>
+              </item>
+              <item row="11" column="1">
+               <property name="text">
+                <string>-</string>
+               </property>
+               <property name="textAlignment">
+                <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+               </property>
+              </item>
+              <item row="11" column="2">
+               <property name="text">
+                <string>Molecular Volume</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_4">
+           <attribute name="title">
+            <string>Oral Active</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="tb_oral">
+              <attribute name="horizontalHeaderStretchLastSection">
+               <bool>false</bool>
+              </attribute>
+              <row>
+               <property name="text">
+                <string>Rule of five (Lipinski's rule)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>GSK_criteria (Veber's rule)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Ghose's rule</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Gleeson's score</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>QED score</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>Value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Rcommended value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+              <item row="0" column="1">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="0" column="2">
+               <property name="text">
+                <string>Adv. Drug Delivery Rev. 1997, 23, 3–25.   MW &lt; 500; logP &lt; 5; hydrogen‐bond donors &lt; 5 ;  hydrogen‐bond acceptors &lt; 10 </string>
+               </property>
+              </item>
+              <item row="1" column="2">
+               <property name="text">
+                <string>J. Med. Chem. 2002, 45, 2615-2623.   Rotatable bonds&lt;10 ;  TPSA &lt; 140 Å²</string>
+               </property>
+              </item>
+              <item row="2" column="2">
+               <property name="text">
+                <string>J. Comb. Chem. 1999, 1, 55–68 .  160≤ MW≤ 480; −0.4 ≤ cLogP ≤ 5.6; 40 ≤ molar refractivity ≤ 130; 20 ≤ number of atoms ≤ 70</string>
+               </property>
+              </item>
+              <item row="3" column="2">
+               <property name="text">
+                <string>Nat. Rev. Drug Discov. 2011, 10, 197–208. Score=|2.5-logP|/2.0+|330-MW|/120 </string>
+               </property>
+              </item>
+              <item row="4" column="2">
+               <property name="text">
+                <string>Nat. Chem. 2012, 24, 90-8</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_2">
+           <attribute name="title">
+            <string>Absorption</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="table_admet">
+              <row>
+               <property name="text">
+                <string>Caco-2 permeability</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Caco-2 LogPapp(cm/s)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Human Intestinal Absorption </string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>Value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Recommended value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+              <item row="0" column="1">
+               <property name="text">
+                <string>≥ 8×10-6 cm/s</string>
+               </property>
+              </item>
+              <item row="0" column="2">
+               <property name="text">
+                <string>Compound with the Caco-2 permeability value (Papp) ≥ 8×10-6 cm/s, it is labeled as high Caco-2 permeability, otherwise it is labeled as moderate-poor permeability.</string>
+               </property>
+              </item>
+              <item row="2" column="2">
+               <property name="text">
+                <string>The absorption of a drug compound through the human intestinal.</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_6">
+           <attribute name="title">
+            <string>Distribution</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_6">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="table_admet_2">
+              <row>
+               <property name="text">
+                <string>Plasma Protein Binding</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Volume of Distribution</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>Value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Recommended value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_7">
+           <attribute name="title">
+            <string>Metabolism</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="table_admet_3">
+              <row>
+               <property name="text">
+                <string>CYP1A2 inhibitor</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>CYP2C9 substrate</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>CYP2D6 inhibtor</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>CYP2D6 substrate</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>CYP3A4 inhibitor</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>CYP Inhibitory Promiscuity</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>Value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Recommended value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_8">
+           <attribute name="title">
+            <string>Excretion</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_8">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="table_admet_4">
+              <row>
+               <property name="text">
+                <string>Renal Organic Cation Transporter</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>Value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Recommended value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_5">
+           <attribute name="title">
+            <string>CNS</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="tb_cns">
+              <attribute name="horizontalHeaderStretchLastSection">
+               <bool>false</bool>
+              </attribute>
+              <row>
+               <property name="text">
+                <string>Blood-Brain Barrier Permeability (SVM)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>P-gp inhibitor (SVM)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>P-gp substrate (SVM)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Unbound drug blood/brain concentration (Eli Lilly)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>P-gp recognition (Envoy Therapeutics)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>CNS drug candidate (Neuromed Technologies Inc.)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Brain uptake (AstraZeneca R&amp;D Södertälje)</string>
+               </property>
+              </row>
+              <row>
+               <property name="text">
+                <string>Unbound drug blood/brain concentration (stepwise)</string>
+               </property>
+              </row>
+              <column>
+               <property name="text">
+                <string>Value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Method</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+              <item row="0" column="1">
+               <property name="text">
+                <string>SVN</string>
+               </property>
+              </item>
+              <item row="0" column="2">
+               <property name="text">
+                <string/>
+               </property>
+              </item>
+              <item row="1" column="1">
+               <property name="text">
+                <string>SVM</string>
+               </property>
+              </item>
+              <item row="2" column="1">
+               <property name="text">
+                <string>SVM</string>
+               </property>
+              </item>
+              <item row="3" column="1">
+               <property name="text">
+                <string>cLogP &lt; 4 and TPSA 40−80 Å²</string>
+               </property>
+              </item>
+              <item row="3" column="2">
+               <property name="text">
+                <string>Optimizing the ‘Drug-Like’
+Properties of Leads in Drug Discovery, 1st ed.;</string>
+               </property>
+              </item>
+              <item row="4" column="1">
+               <property name="text">
+                <string>HBD count &lt; 2 and
+the TPSA &lt; 90 Å² (preferably &lt;70 Å² )</string>
+               </property>
+              </item>
+              <item row="4" column="2">
+               <property name="text">
+                <string>J. Med. Chem. 2012, 55,
+4877−4895.</string>
+               </property>
+              </item>
+              <item row="5" column="1">
+               <property name="text">
+                <string>MW &lt; 450; cLogP &lt; 5; HBD &lt; 3;
+HBA &lt; 7; RB &lt; 8; H-bonds &lt; 8; pK a 7.5−10.5; PSA &lt; 60−70 Å² .</string>
+               </property>
+              </item>
+              <item row="5" column="2">
+               <property name="text">
+                <string>NeuroRx 2005, 2, 541−553.</string>
+               </property>
+              </item>
+              <item row="6" column="1">
+               <property name="text">
+                <string>O+N&lt;5 or cLogP-O-N&gt;0</string>
+               </property>
+              </item>
+              <item row="6" column="2">
+               <property name="text">
+                <string>Adv. Drug Deliv. Rev. 2002,
+54, 291−313.</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_3">
+           <attribute name="title">
+            <string>Fingerprints</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QRadioButton" name="radioButton_2">
+                <property name="text">
+                 <string>MACCS</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton">
+                <property name="text">
+                 <string>OpenBabel</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton_3">
+                <property name="text">
+                 <string>Klekota Roth</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QTableWidget" name="tb_group">
+              <attribute name="horizontalHeaderStretchLastSection">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Value</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Method</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Description</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Export Results</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>SMILES</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="le_SMILE"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_add2list">
+        <property name="text">
+         <string>Add to list</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>or Import structure file</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_import">
+        <property name="text">
+         <string>Import</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1070</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionImport"/>
+    <addaction name="actionExport"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menuFilter">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionFilter_database"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuFilter"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionImport">
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionFilter_database">
+   <property name="text">
+    <string>Filter database</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
