@@ -1,0 +1,239 @@
+MIN_MOLWT 0
+MAX_MOLWT 350
+MIN_NUM_HVY 0
+MAX_NUM_HVY 15
+MIN_ROT_BONDS 0      "Minimum number of rotatable bonds"
+MAX_ROT_BONDS 12      "Maximum number of rotatable bonds"
+MIN_HBOND_DONORS 0      "Minimum number of hydrogen-bond donors"    
+MAX_HBOND_DONORS 10     "Maximum number of hydrogen-bond donors"    
+MIN_HBOND_ACCEPTORS 0      "Minimum number of hydrogen-bond acceptors"    
+MAX_HBOND_ACCEPTORS 10     "Maximum number of hydrogen-bond acceptors"    
+ALLOWED_ELEMENTS H,C,N,O,F,S,Cl,Br,I,P
+ELIMINATE_METALS Sc,Ti,V,Cr,Mn,Fe,Co,Ni,Cu,Zn,Y,Zr,Nb,Mo,Tc,Ru,Rh,Pd,Ag,Cd
+
+#specific
+RULE  1  quinone
+RULE  0  pentafluorophenyl_esters
+RULE  0  paranitrophenyl_esters
+RULE  0  HOBT_esters
+RULE  0  triflates
+RULE  0  lawesson_s_reagent
+RULE  0  phosphoramides
+RULE  1  beta_carbonyl_quat_nitrogen  C(=O)CC[N;$(*([!#1])([!#1])([!#1])[!#1])]
+RULE  1  acylhydrazide  [N;R0;$(*[!a&!#1])][N;R0]C(=O)
+RULE  0  cation_C_Cl_I_P_or_S
+RULE  0  alkyl_phosphate
+RULE  1  phosphinic_acid
+RULE  1  phosphanes
+RULE  0  phosphoranes
+RULE  0  imidoyl_chlorides
+RULE  0  nitroso
+RULE  0  N_P_S_Halides
+RULE  0  carbodiimide
+RULE  0  isonitrile
+RULE  0  triacyloxime
+RULE  0  cyanohydrins
+RULE  0  acyl_cyanides
+RULE  0  sulfonylnitrile
+RULE  0  phosphonylnitrile
+RULE  0  azocyanamides
+RULE  0  beta_azo_carbonyl
+RULE  2  polyenes
+RULE  0  saponin_derivatives
+RULE  1  cytochalasin_derivatives
+RULE  4  cycloheximide_derivatives
+RULE  1  monensin_derivatives
+RULE  1  squalestatin_derivatives
+
+#eliminate
+RULE  0  azide
+RULE  1  azo
+RULE  0  aldehyde
+RULE  0  phosphonic_acid
+RULE  0  phosphonic_ester
+RULE  0  phosphoric_acid
+RULE  0  phosphoric_ester
+RULE  0  phosphoryl
+RULE  0  acid_halide
+RULE  6  alkyl_halide
+RULE  0  anhydride
+RULE  2  di_peptide
+RULE  1  michael_acceptor
+RULE  0  beta_halo_carbonyl
+RULE  3  nitro
+RULE  0  oxygen_cation
+RULE  0  peroxide
+RULE  1  sulfonic_acid
+RULE  0  sulfonic_ester
+RULE  0  tricarbo_phosphene
+RULE  1  epoxide
+RULE  0  sulfonyl_halide
+RULE  0  halopyrimidine
+RULE  0  perhalo_ketone
+RULE  0  aziridine
+RULE  1  oxalyl
+RULE  0  alphahalo_amine 
+RULE  0  halo_amine 
+RULE  1  halo_alkene
+RULE  0  acyclic_NCN
+RULE  0  acyclic_NS
+RULE  0  SCN2
+RULE  0  terminal_vinyl
+RULE  0  hetero_hetero
+RULE  1  hydrazine
+RULE  0  N_methoyl
+RULE  2  NS_beta_halothyl
+RULE  0  propiolactones
+RULE  0  iodoso
+RULE  0  iodoxy
+RULE  1  noxide
+
+#allowed
+RULE  6  alcohol
+RULE  5  alkene
+RULE  4  amide
+RULE  4  amino_acid
+RULE  3  amine
+RULE  4  primary_amine
+RULE  4  secondary_amine
+RULE  4  tertiary_amine
+RULE  2  carboxylic_acid
+RULE  6  halide
+RULE  4  iodine
+RULE  3  ketone
+RULE  4  phenol
+RULE  2  imine
+RULE  1  methyl_ketone
+RULE  1  alkylaniline
+RULE  4  sulfonamide 
+RULE  1  sulfonylurea 
+RULE  0  phosphonamide 
+RULE  1  alphahalo_ketone
+RULE  0  oxaziridine
+RULE  2  cyclopropyl
+RULE  2  guanidine
+RULE  0  sulfonimine
+RULE  0  sulfinimine
+RULE  1  hydroxamic_acid
+RULE  0  sulfinylthio
+RULE  0  disulfide
+RULE  0  enol_ether
+RULE  2  enamine
+RULE  0  organometallic
+RULE  1  dithioacetal
+RULE  1  oxime
+RULE  0  isothiocyanate
+RULE  0  isocyanate
+RULE  3  lactone
+RULE  3  lactam
+RULE  1  thioester
+RULE  2  carbonate
+RULE  2  carbamic_acid
+RULE  1  thiocarbamate
+RULE  1  triazine
+RULE  1  malonic
+
+#other
+RULE  2  alkyne
+RULE  4  aniline
+RULE  4  aryl_halide
+RULE  2  carbamate
+RULE  3  ester
+RULE  6  ether
+RULE  1  hydrazone
+RULE  1  nonacylhydrazone
+RULE  1  hydroxylamine
+RULE  2  nitrile
+RULE  3  sulfide
+RULE  2  sulfone
+RULE  2  sulfoxide
+RULE  1  thiourea
+RULE  1  thioamide
+RULE  2  thiol
+RULE  2  urea
+RULE  0  hemiketal 
+RULE  0  hemiacetal
+RULE  0  ketal
+RULE  0  acetal
+RULE  0  aminal [C;$(*(-[O!$(**=O)][#6])-[N!$(**=O)][#6]);!$(*=*)]
+RULE  0  hemiaminal [C;$(*(-[O;!$(*([!#1])[!#1])])-[N!$(**=O)][#6]);!$(*=*)]
+RULE  1  benzyloxycarbonyl_CBZ
+RULE  1  t_butoxycarbonyl_tBOC
+RULE  0  fluorenylmethoxycarbonyl_Fmoc
+RULE  1  dioxolane_5MR
+RULE  1  dioxane_6MR
+RULE  1  tetrahydropyran_THP
+RULE  1  methoxyethoxymethyl_MEM
+RULE  2  benzyl_ether
+RULE  2  t_butyl_ether
+RULE  0  trimethylsilyl_TMS
+RULE  0  t_butyldimethylsilyl_TBDMS
+RULE  0  triisopropylsilyl_TIPS
+RULE  0  t_butyldiphenylsilyl_TBDPS
+RULE  1  phthalimides_PHT
+RULE  2  arenesulfonyl
+RULE  0  noattachment 0 [!#0;!$(*.[#0])]
+RULE  3  attach 3 [#0]
+RULE  1  S 1 [#16]
+RULE  0  HalX2 0 [#9,#17,#35,#53](~*)~*
+RULE  0  UnsatHal 0 *=*[#9,#17,#35,#53]
+RULE  3  F 3 [#9]
+RULE  0  Fbad1 0 [#9;!$(*-C-[#9]);!$(*-c)]
+RULE  0  Fbad2 0 [#9;$(*-c.[#9]),$(*-C[#9].[#9!$(*-C-[#9])])]
+RULE  2  Cl 2 [#17]
+RULE  0  FCl 0 [#9;$(*.[#17])]
+RULE  0  Br 0 [#35]
+RULE  0  I 0 [#53]
+RULE  3  O 3 [#8]
+RULE  0  O3 0 [#8]~[#8]~[#8]
+RULE  0  N3 0 N~N~N
+RULE  0  aliHH 0 [R;O,N,S;!$(*=O)]@[R;O,N,S;!$(*=O)]
+RULE  0  stereo 0 [@;$(*.[@].[@].[@]),$([R0].[R0@].[R0@])]
+RULE  0  SCN 0 SC-,=,#[N!$(NC=[!#6])]
+RULE  0  N-N 0 [#6]-[NH2]-[N;X4H3,X3H2]
+RULE  0  N=N 0 [#6;#0]-[NH]=[NH]-[#6,#0]
+RULE  0  alkylBrI 0 C[Br,I]
+RULE  0  n+N 0 [n+]-N
+RULE  0  CN#N 0 C=N=,#N
+RULE  0  unsat 0 [CR0]=[CR0]-[CR0]=[CR0]
+RULE  0  hydrazineimine 0 [C;$(*=O),$(*-[#6])]NN=C
+RULE  0  guanamidine 0 N~[CR0]~N~[CR0](~N)~N
+RULE  0  terminalSulf 0 [S;H1-0,H0-1;$(*-,=O)]
+RULE  0  badSulfur1 0 [S;!$(S-,=[O;-0H0,-1H0]);!$(S([#6,#0])[#6,#0]);!$([SR])]
+RULE  0  badSulfur2 0 [S;$(S-C=*),$(S=[#6,#7]),$([S+0](*)(O)(O)O*),$(S(*)(N)(N)*)]
+RULE  0  badSulfur3 0 [S;$(*[Sv4](=O)N*)]
+RULE  0  NN 0 [N;!$(*(-N)-[!#1!#6!#0])]-,=[N!$(*(-N)-[!#1!#6!#0])]
+RULE  0  COO 0 [C;$(*(-[OH1,OH0-1])-[OH1,OH0-1])]
+RULE  0  CNNN 0 C(-N)(-N)-N
+RULE  0  CNNO 0 C(-N)(-N)-O
+RULE  0  nitroplus1 0 *N(=O)O*
+RULE  0  nitroplus2 0 *[N+]([O-])O*
+RULE  0  nitroextra1 0 *N(=O)C(=O)*
+RULE  0  nitroextra2 0 *[N+]([O-])C(=O)*
+RULE  0  badamide 0 *N=[CR0]([!#1])[O;H1,H0-1]
+RULE  0  terminalester 0 *O[CH1]=O
+RULE  0  OO 0 [O]~[O] 
+RULE  0  OS 0 [S]~[O]~[!#1] 
+RULE  0  ON 0 O-[N;!$(*C=O);!$(*=O)] 
+RULE  0  ONcarb 0 O=CN-OC=O
+RULE  0  nonCHal 0 [!#6;!#0]-[#9,#17,#35,#53]
+RULE  0  CCNN 0 C=C([N;!$(*C=O)])[N;!$(*C=O)]  
+RULE  1  threemember 1 *~1~*~*1
+RULE  0  arom3member 0 a1aa1
+RULE  0  arom4member 0 a:1:a:a:a1
+RULE  0  unsat3member 0 *~1~*=,#,:*1
+RULE  0  unsat4member 0 *~1~*=,#,:*~*1
+RULE  0  exounsat3member 0 *=,#*~1~*~*1
+RULE  0  crg3member 0 *~1~[!+0]~*1
+RULE  0  crg4member 0 *~1~[!+0]~*~*1
+RULE  0  bicyclo111 0 *~1~2~*~*(~*1)~*2 
+RULE  0  tritri 0 *~1~*~2~*1~*2
+RULE  0  triquad 0 *~1~*~2~*1~*~*2
+RULE  0  quadquad 0 *~1~*~*~2~*1~*~*2
+RULE  0  a3 0 [aR3]:[aR3](:[aR3]):[aR3] 
+RULE  0  spiro3any 0 *~1~*(@*)(@*)~*1
+RULE  0  fusion3any 0 *~1~*(@*)~*(@*)1
+RULE  0  tribondtri 0 *~1~*~*1~*~2~*~*2
+RULE  0  nonnco4member 0 [!#6;!#7;!#8]~1~*~*~*1
+RULE  0  cyclictriple 0 *#@*
+
