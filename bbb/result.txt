@@ -1,0 +1,1480 @@
+############################################
+  8:('[!#6;!#1]1~*~*~*~1',0), # QAAA@1
+processing 1
+*
+optimization finished, #iter = 301
+nu = 0.266432
+obj = -229.917994, rho = -0.506336
+nSV = 316, nBSV = 271
+Total nSV = 316
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  11:('*1~*~*~*~1',0), # 4M Ring
+processing 2
+*
+optimization finished, #iter = 309
+nu = 0.266671
+obj = -230.302774, rho = -0.502514
+nSV = 314, nBSV = 268
+Total nSV = 314
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  15:('[#8]~[#6](~[#8])~[#8]',0), # OC(O)O
+processing 3
+*
+optimization finished, #iter = 304
+nu = 0.263439
+obj = -228.170533, rho = -0.453543
+nSV = 313, nBSV = 268
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  16:('[!#6;!#1]1~*~*~1',0), # QAA@1
+processing 4
+*
+optimization finished, #iter = 308
+nu = 0.263380
+obj = -228.157359, rho = -0.452270
+nSV = 312, nBSV = 266
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  17:('[#6]#[#6]',0), #CTC
+processing 5
+*
+optimization finished, #iter = 311
+nu = 0.263454
+obj = -228.163859, rho = -0.443835
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  18:('[B,Al,Ga,In,Tl]',0), # Group IIIA (B...) *NOTE* spec wrong
+processing 6
+*
+optimization finished, #iter = 311
+nu = 0.263454
+obj = -228.163859, rho = -0.443835
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  19:('*1~*~*~*~*~*~*~1',0), # 7M Ring
+processing 7
+*
+optimization finished, #iter = 276
+nu = 0.263520
+obj = -228.212151, rho = -0.451136
+nSV = 311, nBSV = 269
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  20:('[Si]',0), #Si
+processing 8
+*
+optimization finished, #iter = 311
+nu = 0.263454
+obj = -228.163859, rho = -0.443835
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  21:('[#6]=[#6](~[!#6;!#1])~[!#6;!#1]',0), # C=C(Q)Q
+processing 9
+*
+optimization finished, #iter = 329
+nu = 0.263451
+obj = -228.162548, rho = -0.448640
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  22:('*1~*~*~1',0), # 3M Ring
+processing 10
+*
+optimization finished, #iter = 315
+nu = 0.263400
+obj = -228.134389, rho = -0.440608
+nSV = 313, nBSV = 268
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  23:('[#7]~[#6](~[#8])~[#8]',0), # NC(O)O
+processing 11
+*
+optimization finished, #iter = 325
+nu = 0.263664
+obj = -228.394089, rho = -0.411294
+nSV = 312, nBSV = 265
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  24:('[#7]-[#8]',0), # N-O
+processing 12
+*
+optimization finished, #iter = 312
+nu = 0.263439
+obj = -228.150436, rho = -0.443994
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  25:('[#7]~[#6](~[#7])~[#7]',0), # NC(N)N
+processing 13
+*
+optimization finished, #iter = 309
+nu = 0.263453
+obj = -228.192623, rho = -0.445355
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  27:('[I]',0), # I
+processing 14
+*
+optimization finished, #iter = 322
+nu = 0.263467
+obj = -228.179305, rho = -0.448604
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  28:('[!#6;!#1]~[CH2]~[!#6;!#1]',0), # QCH2Q
+processing 15
+*
+optimization finished, #iter = 315
+nu = 0.263416
+obj = -228.151660, rho = -0.449732
+nSV = 312, nBSV = 267
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  29:('[#15]',0),# P
+processing 16
+*
+optimization finished, #iter = 306
+nu = 0.263446
+obj = -228.159072, rho = -0.444382
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  30:('[#6]~[!#6;!#1](~[#6])(~[#6])~*',0), # CQ(C)(C)A
+processing 17
+*
+optimization finished, #iter = 307
+nu = 0.263452
+obj = -228.168298, rho = -0.438780
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  31:('[!#6;!#1]~[F,Cl,Br,I]',0), # QX
+processing 18
+*
+optimization finished, #iter = 311
+nu = 0.263454
+obj = -228.163859, rho = -0.443835
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  32:('[#6]~[#16]~[#7]',0), # CSN
+processing 19
+*
+optimization finished, #iter = 311
+nu = 0.263408
+obj = -228.167821, rho = -0.441971
+nSV = 314, nBSV = 268
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  33:('[#7]~[#16]',0), # NS
+processing 20
+*
+optimization finished, #iter = 299
+nu = 0.263401
+obj = -228.144694, rho = -0.444116
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  34:('[CH2]=*',0), # CH2=A
+processing 21
+*
+optimization finished, #iter = 321
+nu = 0.263581
+obj = -228.180711, rho = -0.433919
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  35:('[Li,Na,K,Rb,Cs,Fr]',0), # Group IA (Alkali Metal)
+processing 22
+*
+optimization finished, #iter = 311
+nu = 0.263454
+obj = -228.163859, rho = -0.443835
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  36:('[#16R]',0), # S Heterocycle
+processing 23
+*
+optimization finished, #iter = 311
+nu = 0.264889
+obj = -228.868398, rho = -0.461752
+nSV = 314, nBSV = 266
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  37:('[#7]~[#6](~[#8])~[#7]',0), # NC(O)N
+processing 24
+*
+optimization finished, #iter = 298
+nu = 0.263489
+obj = -228.304152, rho = -0.427162
+nSV = 311, nBSV = 266
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  38:('[#7]~[#6](~[#6])~[#7]',0), # NC(C)N
+processing 25
+*
+optimization finished, #iter = 300
+nu = 0.263381
+obj = -228.345808, rho = -0.418311
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  39:('[#8]~[#16](~[#8])~[#8]',0), # OS(O)O
+processing 26
+*
+optimization finished, #iter = 320
+nu = 0.263435
+obj = -228.151453, rho = -0.447794
+nSV = 314, nBSV = 267
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  40:('[#16]-[#8]',0), # S-O
+processing 27
+*
+optimization finished, #iter = 320
+nu = 0.263435
+obj = -228.151453, rho = -0.447794
+nSV = 314, nBSV = 267
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  41:('[#6]#[#7]',0), # CTN
+processing 28
+*
+optimization finished, #iter = 307
+nu = 0.263467
+obj = -228.235394, rho = -0.457815
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  42:('F',0), # F
+processing 29
+*
+optimization finished, #iter = 277
+nu = 0.263567
+obj = -228.285220, rho = -0.431605
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  43:('[!C;!c;!#1;!H0]~*~[!C;!c;!#1;!H0]',0), # QHAQH
+processing 30
+*
+optimization finished, #iter = 312
+nu = 0.263450
+obj = -228.167416, rho = -0.442848
+nSV = 313, nBSV = 268
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  45:('[#6]=[#6]~[#7]',0), # C=CN
+processing 31
+*
+optimization finished, #iter = 298
+nu = 0.264511
+obj = -228.821071, rho = -0.501219
+nSV = 311, nBSV = 267
+Total nSV = 311
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  46:('Br',0), # BR
+processing 32
+*
+optimization finished, #iter = 303
+nu = 0.263458
+obj = -228.167298, rho = -0.438975
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  47:('[#16]~*~[#7]',0), # SAN
+processing 33
+*
+optimization finished, #iter = 329
+nu = 0.265100
+obj = -229.108575, rho = -0.466109
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  48:('[#8]~[!#6;!#1](~[#8])(~[#8])',0), # OQ(O)O
+processing 34
+*
+optimization finished, #iter = 321
+nu = 0.263391
+obj = -228.146243, rho = -0.447977
+nSV = 314, nBSV = 267
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  49:('[!+0]',0), # CHARGE  
+processing 35
+*
+optimization finished, #iter = 311
+nu = 0.263454
+obj = -228.163859, rho = -0.443835
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  50:('[#6]=[#6](~[#6])~[#6]',0), # C=C(C)C
+processing 36
+*
+optimization finished, #iter = 271
+nu = 0.264353
+obj = -228.719301, rho = -0.446640
+nSV = 307, nBSV = 270
+Total nSV = 307
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  51:('[#6]~[#16]~[#8]',0), # CSO
+processing 37
+*
+optimization finished, #iter = 305
+nu = 0.263438
+obj = -228.166813, rho = -0.438926
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  52:('[#7]~[#7]',0), # NN
+processing 38
+*
+optimization finished, #iter = 306
+nu = 0.263363
+obj = -228.121895, rho = -0.445880
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  53:('[!#6;!#1;!H0]~*~*~*~[!#6;!#1;!H0]',0), # QHAAAQH
+processing 39
+*
+optimization finished, #iter = 323
+nu = 0.265828
+obj = -232.010078, rho = -0.535488
+nSV = 320, nBSV = 273
+Total nSV = 320
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  55:('[#8]~[#16]~[#8]',0), #OSO
+processing 40
+*
+optimization finished, #iter = 299
+nu = 0.263402
+obj = -228.142108, rho = -0.442366
+nSV = 312, nBSV = 266
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  56:('[#8]~[#7](~[#8])~[#6]',0), # ON(O)C
+processing 41
+*
+optimization finished, #iter = 337
+nu = 0.263452
+obj = -228.168901, rho = -0.447878
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  58:('[!#6;!#1]~[#16]~[!#6;!#1]',0), # QSQ
+processing 42
+*
+optimization finished, #iter = 299
+nu = 0.263402
+obj = -228.142108, rho = -0.442366
+nSV = 312, nBSV = 266
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  59:('[#16]!:*:*',0), # Snot%A%A
+processing 43
+*
+optimization finished, #iter = 303
+nu = 0.263434
+obj = -228.223260, rho = -0.433150
+nSV = 312, nBSV = 268
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  60:('[#16]=[#8]',0), # S=O
+processing 44
+*
+optimization finished, #iter = 299
+nu = 0.263402
+obj = -228.142108, rho = -0.442366
+nSV = 312, nBSV = 266
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  61:('*~[#16](~*)~*',0), # AS(A)A
+processing 45
+*
+optimization finished, #iter = 299
+nu = 0.263402
+obj = -228.142108, rho = -0.442366
+nSV = 312, nBSV = 266
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  62:('*@*!@*@*',0), # A$!A$A
+processing 46
+*
+optimization finished, #iter = 334
+nu = 0.263760
+obj = -228.332072, rho = -0.423831
+nSV = 312, nBSV = 264
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  63:('[#7]=[#8]',0), # N=O
+processing 47
+*
+optimization finished, #iter = 328
+nu = 0.263446
+obj = -228.161202, rho = -0.443561
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  64:('*@*!@[#16]',0), # A$A!S
+processing 48
+*
+optimization finished, #iter = 291
+nu = 0.263414
+obj = -228.235948, rho = -0.451355
+nSV = 308, nBSV = 267
+Total nSV = 308
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  65:('c:n',0), # C%N
+processing 49
+*
+optimization finished, #iter = 305
+nu = 0.263282
+obj = -228.275215, rho = -0.445542
+nSV = 313, nBSV = 265
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  66:('[#6]~[#6](~[#6])(~[#6])~*',0), # CC(C)(C)A
+processing 50
+*
+optimization finished, #iter = 327
+nu = 0.266558
+obj = -230.728188, rho = -0.437928
+nSV = 319, nBSV = 267
+Total nSV = 319
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  67:('[!#6;!#1]~[#16]',0), # QS
+processing 51
+*
+optimization finished, #iter = 300
+nu = 0.263428
+obj = -228.161194, rho = -0.440387
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  68:('[!#6;!#1;!H0]~[!#6;!#1;!H0]',0), # QHQH (&...) FIX: incomplete definition
+processing 52
+*
+optimization finished, #iter = 305
+nu = 0.263446
+obj = -228.157469, rho = -0.438609
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  69:('[!#6;!#1]~[!#6;!#1;!H0]',0), # QQH
+processing 53
+*
+optimization finished, #iter = 306
+nu = 0.263456
+obj = -228.173604, rho = -0.434451
+nSV = 313, nBSV = 268
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  70:('[!#6;!#1]~[#7]~[!#6;!#1]',0), # QNQ
+processing 54
+*
+optimization finished, #iter = 315
+nu = 0.263352
+obj = -228.250882, rho = -0.455717
+nSV = 312, nBSV = 268
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  71:('[#7]~[#8]',0), # NO
+processing 55
+*
+optimization finished, #iter = 302
+nu = 0.263431
+obj = -228.146531, rho = -0.444111
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  72:('[#8]~*~*~[#8]',0), # OAAO
+processing 56
+*
+optimization finished, #iter = 350
+nu = 0.265627
+obj = -230.426808, rho = -0.458809
+nSV = 319, nBSV = 266
+Total nSV = 319
+Accuracy = 87.1314% (650/746) (classification)
+############################################
+  73:('[#16]=*',0), # S=A
+processing 57
+*
+optimization finished, #iter = 309
+nu = 0.263525
+obj = -228.184075, rho = -0.439245
+nSV = 312, nBSV = 265
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  74:('[CH3]~*~[CH3]',0), # CH3ACH3
+processing 58
+*
+optimization finished, #iter = 357
+nu = 0.266752
+obj = -232.155592, rho = -0.520081
+nSV = 323, nBSV = 272
+Total nSV = 323
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  75:('*!@[#7]@*',0), # A!N$A
+processing 59
+*
+optimization finished, #iter = 333
+nu = 0.265224
+obj = -229.169649, rho = -0.438359
+nSV = 309, nBSV = 261
+Total nSV = 309
+Accuracy = 87.1314% (650/746) (classification)
+############################################
+  76:('[#6]=[#6](~*)~*',0), # C=C(A)A
+processing 60
+*
+optimization finished, #iter = 293
+nu = 0.264081
+obj = -228.613256, rho = -0.450052
+nSV = 309, nBSV = 268
+Total nSV = 309
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  77:('[#7]~*~[#7]',0), # NAN
+processing 61
+*
+optimization finished, #iter = 331
+nu = 0.263442
+obj = -228.181628, rho = -0.445462
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  78:('[#6]=[#7]',0), # C=N
+processing 62
+*
+optimization finished, #iter = 293
+nu = 0.263498
+obj = -228.216209, rho = -0.451426
+nSV = 311, nBSV = 267
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  79:('[#7]~*~*~[#7]',0), # NAAN
+processing 63
+*
+optimization finished, #iter = 318
+nu = 0.264681
+obj = -229.209915, rho = -0.416852
+nSV = 312, nBSV = 263
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  80:('[#7]~*~*~*~[#7]',0), # NAAAN
+processing 64
+*
+optimization finished, #iter = 306
+nu = 0.263522
+obj = -228.266355, rho = -0.439614
+nSV = 307, nBSV = 266
+Total nSV = 307
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  81:('[#16]~*(~*)~*',0), # SA(A)A
+processing 65
+*
+optimization finished, #iter = 315
+nu = 0.264220
+obj = -228.778019, rho = -0.437973
+nSV = 314, nBSV = 269
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  82:('*~[CH2]~[!#6;!#1;!H0]',0), # ACH2QH
+processing 66
+*
+optimization finished, #iter = 314
+nu = 0.263585
+obj = -228.195129, rho = -0.450680
+nSV = 311, nBSV = 265
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  83:('[!#6;!#1]1~*~*~*~*~1',0), # QAAAA@1
+processing 67
+*
+optimization finished, #iter = 299
+nu = 0.263506
+obj = -228.262597, rho = -0.443244
+nSV = 310, nBSV = 268
+Total nSV = 310
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  84:('[NH2]',0), #NH2
+processing 68
+*
+optimization finished, #iter = 306
+nu = 0.263825
+obj = -228.816695, rho = -0.477058
+nSV = 313, nBSV = 270
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  85:('[#6]~[#7](~[#6])~[#6]',0), # CN(C)C
+processing 69
+*
+optimization finished, #iter = 304
+nu = 0.263903
+obj = -228.514264, rho = -0.450738
+nSV = 308, nBSV = 266
+Total nSV = 308
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  86:('[C;H2,H3][!#6;!#1][C;H2,H3]',0), # CH2QCH2
+processing 70
+*
+optimization finished, #iter = 288
+nu = 0.263110
+obj = -228.221794, rho = -0.436621
+nSV = 307, nBSV = 270
+Total nSV = 307
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  87:('[F,Cl,Br,I]!@*@*',0), # X!A$A
+processing 71
+*
+optimization finished, #iter = 299
+nu = 0.263457
+obj = -228.259639, rho = -0.439760
+nSV = 313, nBSV = 268
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  88:('[#16]',0), # S
+processing 72
+*
+optimization finished, #iter = 335
+nu = 0.264027
+obj = -228.566353, rho = -0.436961
+nSV = 315, nBSV = 265
+Total nSV = 315
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  89:('[#8]~*~*~*~[#8]',0), # OAAAO
+processing 73
+*
+optimization finished, #iter = 342
+nu = 0.264526
+obj = -228.967343, rho = -0.458934
+nSV = 312, nBSV = 266
+Total nSV = 312
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  90:('[$([!#6;!#1;!H0]~*~*~[CH2]~*),$([!#6;!#1;!H0;R]1@[R]@[R]@[CH2;R]1),$([!#6;!#1;!H0]~[R]1@[R]@[CH2;R]1)]',0), # QHAACH2A
+processing 74
+*
+optimization finished, #iter = 313
+nu = 0.263498
+obj = -228.362338, rho = -0.445321
+nSV = 312, nBSV = 268
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  91:('[$([!#6;!#1;!H0]~*~*~*~[CH2]~*),$([!#6;!#1;!H0;R]1@[R]@[R]@[R]@[CH2;R]1),$([!#6;!#1;!H0]~[R]1@[R]@[R]@[CH2;R]1),$([!#6;!#1;!H0]~*~[R]1@[R]@[CH2;R]1)]',0), # QHAAACH2A
+processing 75
+*
+optimization finished, #iter = 282
+nu = 0.263242
+obj = -228.109246, rho = -0.441212
+nSV = 312, nBSV = 268
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  92:('[#8]~[#6](~[#7])~[#6]',0), # OC(N)C
+processing 76
+*
+optimization finished, #iter = 290
+nu = 0.263559
+obj = -228.382506, rho = -0.443248
+nSV = 312, nBSV = 268
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  93:('[!#6;!#1]~[CH3]',0), # QCH3
+processing 77
+*
+optimization finished, #iter = 333
+nu = 0.265066
+obj = -229.526837, rho = -0.470930
+nSV = 319, nBSV = 270
+Total nSV = 319
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  94:('[!#6;!#1]~[#7]',0), # QN
+processing 78
+*
+optimization finished, #iter = 304
+nu = 0.263361
+obj = -228.111568, rho = -0.443127
+nSV = 312, nBSV = 265
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  95:('[#7]~*~*~[#8]',0), # NAAO
+processing 79
+*
+optimization finished, #iter = 351
+nu = 0.273373
+obj = -236.588529, rho = -0.461328
+nSV = 324, nBSV = 275
+Total nSV = 324
+Accuracy = 87.1314% (650/746) (classification)
+############################################
+  96:('*1~*~*~*~*~1',0), # 5 M ring
+processing 80
+*
+optimization finished, #iter = 317
+nu = 0.264038
+obj = -228.840813, rho = -0.466923
+nSV = 309, nBSV = 266
+Total nSV = 309
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  97:('[#7]~*~*~*~[#8]',0), # NAAAO
+processing 81
+*
+optimization finished, #iter = 389
+nu = 0.269785
+obj = -232.263002, rho = -0.425642
+nSV = 325, nBSV = 265
+Total nSV = 325
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  98:('[!#6;!#1]1~*~*~*~*~*~1',0), # QAAAAA@1
+processing 82
+*
+optimization finished, #iter = 266
+nu = 0.264441
+obj = -228.839757, rho = -0.450994
+nSV = 303, nBSV = 272
+Total nSV = 303
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  99:('[#6]=[#6]',0), # C=C
+processing 83
+*
+optimization finished, #iter = 320
+nu = 0.263903
+obj = -228.411452, rho = -0.445108
+nSV = 311, nBSV = 265
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  100:('*~[CH2]~[#7]',0), # ACH2N
+processing 84
+*
+optimization finished, #iter = 283
+nu = 0.263311
+obj = -228.148636, rho = -0.442284
+nSV = 311, nBSV = 270
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  101:('[$([R]@1@[R]@[R]@[R]@[R]@[R]@[R]@[R]1),$([R]@1@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]1),$([R]@1@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]1),$([R]@1@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]1),$([R]@1@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]1),$([R]@1@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]1),$([R]@1@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]@[R]1)]',0), # 8M Ring or larger. This only handles up to ring sizes of 14
+processing 85
+*
+optimization finished, #iter = 352
+nu = 0.263391
+obj = -228.273213, rho = -0.441598
+nSV = 313, nBSV = 263
+Total nSV = 313
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  102:('[!#6;!#1]~[#8]',0), # QO
+processing 86
+*
+optimization finished, #iter = 303
+nu = 0.263440
+obj = -228.136075, rho = -0.444190
+nSV = 312, nBSV = 266
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  103:('Cl',0), # CL
+processing 87
+*
+optimization finished, #iter = 304
+nu = 0.263516
+obj = -228.244798, rho = -0.433026
+nSV = 311, nBSV = 270
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  104:('[!#6;!#1;!H0]~*~[CH2]~*',0), # QHACH2A
+processing 88
+*
+optimization finished, #iter = 316
+nu = 0.263416
+obj = -228.480330, rho = -0.462472
+nSV = 310, nBSV = 267
+Total nSV = 310
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  105:('*@*(@*)@*',0), # A$A($A)$A
+processing 89
+*
+optimization finished, #iter = 292
+nu = 0.263708
+obj = -228.432212, rho = -0.441038
+nSV = 310, nBSV = 273
+Total nSV = 310
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  106:('[!#6;!#1]~*(~[!#6;!#1])~[!#6;!#1]',0), # QA(Q)Q
+processing 90
+*
+optimization finished, #iter = 318
+nu = 0.263067
+obj = -229.011011, rho = -0.460450
+nSV = 311, nBSV = 264
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  107:('[F,Cl,Br,I]~*(~*)~*',0), # XA(A)A
+processing 91
+*
+optimization finished, #iter = 304
+nu = 0.263584
+obj = -228.347700, rho = -0.436976
+nSV = 311, nBSV = 269
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  108:('[CH3]~*~*~*~[CH2]~*',0), # CH3AAACH2A
+processing 92
+*
+optimization finished, #iter = 318
+nu = 0.263200
+obj = -228.125844, rho = -0.445465
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  109:('*~[CH2]~[#8]',0), # ACH2O
+processing 93
+*
+optimization finished, #iter = 305
+nu = 0.263296
+obj = -228.062884, rho = -0.442563
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  110:('[#7]~[#6]~[#8]',0), # NCO
+processing 94
+*
+optimization finished, #iter = 301
+nu = 0.263545
+obj = -228.368597, rho = -0.443325
+nSV = 311, nBSV = 268
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  111:('[#7]~*~[CH2]~*',0), # NACH2A
+processing 95
+*
+optimization finished, #iter = 280
+nu = 0.264676
+obj = -229.522014, rho = -0.436575
+nSV = 310, nBSV = 269
+Total nSV = 310
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  112:('*~*(~*)(~*)~*',0), # AA(A)(A)A
+processing 96
+*
+optimization finished, #iter = 331
+nu = 0.264148
+obj = -228.784255, rho = -0.403677
+nSV = 314, nBSV = 266
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  113:('[#8]!:*:*',0), # Onot%A%A
+processing 97
+*
+optimization finished, #iter = 324
+nu = 0.263314
+obj = -228.319717, rho = -0.455190
+nSV = 313, nBSV = 264
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  114:('[CH3]~[CH2]~*',0), # CH3CH2A
+processing 98
+*
+optimization finished, #iter = 320
+nu = 0.263247
+obj = -228.580950, rho = -0.475504
+nSV = 309, nBSV = 265
+Total nSV = 309
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  115:('[CH3]~*~[CH2]~*',0), # CH3ACH2A
+processing 99
+*
+optimization finished, #iter = 323
+nu = 0.263299
+obj = -228.289133, rho = -0.442564
+nSV = 313, nBSV = 265
+Total nSV = 313
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  116:('[$([CH3]~*~*~[CH2]~*),$([CH3]~*1~*~[CH2]1)]',0), # CH3AACH2A
+processing 100
+*
+optimization finished, #iter = 315
+nu = 0.263288
+obj = -228.258007, rho = -0.429643
+nSV = 311, nBSV = 267
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  117:('[#7]~*~[#8]',0), # NAO
+processing 101
+*
+optimization finished, #iter = 293
+nu = 0.263550
+obj = -228.361615, rho = -0.445913
+nSV = 312, nBSV = 268
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  118:('[$(*~[CH2]~[CH2]~*),$(*1~[CH2]~[CH2]1)]',1), # ACH2CH2A > 1
+processing 102
+*
+optimization finished, #iter = 315
+nu = 0.264012
+obj = -228.547229, rho = -0.437322
+nSV = 314, nBSV = 267
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  119:('[#7]=*',0), # N=A
+processing 103
+*
+optimization finished, #iter = 317
+nu = 0.263483
+obj = -228.210768, rho = -0.449309
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  120:('[!#6;R]',1), # Heterocyclic atom > 1 (&...) FIX: incomplete definition
+processing 104
+*
+optimization finished, #iter = 282
+nu = 0.263513
+obj = -228.420301, rho = -0.427294
+nSV = 310, nBSV = 271
+Total nSV = 310
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  121:('[#7;R]',0), # N Heterocycle
+processing 105
+*
+optimization finished, #iter = 279
+nu = 0.265115
+obj = -229.847140, rho = -0.457870
+nSV = 309, nBSV = 268
+Total nSV = 309
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  122:('*~[#7](~*)~*',0), # AN(A)A
+processing 106
+*
+optimization finished, #iter = 306
+nu = 0.263673
+obj = -228.380980, rho = -0.442999
+nSV = 312, nBSV = 266
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  123:('[#8]~[#6]~[#8]',0), # OCO
+processing 107
+*
+optimization finished, #iter = 319
+nu = 0.271030
+obj = -234.984014, rho = -0.475965
+nSV = 320, nBSV = 272
+Total nSV = 320
+Accuracy = 86.9973% (649/746) (classification)
+############################################
+  124:('[!#6;!#1]~[!#6;!#1]',0), # QQ
+processing 108
+*
+optimization finished, #iter = 303
+nu = 0.263344
+obj = -228.109279, rho = -0.444264
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  126:('*!@[#8]!@*',0), # A!O!A
+processing 109
+*
+optimization finished, #iter = 334
+nu = 0.263969
+obj = -228.364315, rho = -0.452733
+nSV = 312, nBSV = 265
+Total nSV = 312
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  127:('*@*!@[#8]',1), # A$A!O > 1 (&...) FIX: incomplete definition
+processing 110
+*
+optimization finished, #iter = 311
+nu = 0.264219
+obj = -228.658845, rho = -0.427828
+nSV = 315, nBSV = 271
+Total nSV = 315
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  128:('[$(*~[CH2]~*~*~*~[CH2]~*),$([R]1@[CH2;R]@[R]@[R]@[R]@[CH2;R]1),$(*~[CH2]~[R]1@[R]@[R]@[CH2;R]1),$(*~[CH2]~*~[R]1@[R]@[CH2;R]1)]',0), # ACH2AAACH2A
+processing 111
+*
+optimization finished, #iter = 300
+nu = 0.264198
+obj = -228.466839, rho = -0.439417
+nSV = 313, nBSV = 268
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  129:('[$(*~[CH2]~*~*~[CH2]~*),$([R]1@[CH2]@[R]@[R]@[CH2;R]1),$(*~[CH2]~[R]1@[R]@[CH2;R]1)]',0), # ACH2AACH2A
+processing 112
+*
+optimization finished, #iter = 277
+nu = 0.264140
+obj = -228.492862, rho = -0.454202
+nSV = 309, nBSV = 265
+Total nSV = 309
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  130:('[!#6;!#1]~[!#6;!#1]',1), # QQ > 1 (&...)  FIX: incomplete definition
+processing 113
+*
+optimization finished, #iter = 303
+nu = 0.263344
+obj = -228.109279, rho = -0.444264
+nSV = 313, nBSV = 266
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  131:('[!#6;!#1;!H0]',1), # QH > 1
+processing 114
+*
+optimization finished, #iter = 305
+nu = 0.264046
+obj = -228.379282, rho = -0.413287
+nSV = 310, nBSV = 268
+Total nSV = 310
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  132:('[#8]~*~[CH2]~*',0), # OACH2A
+processing 115
+*
+optimization finished, #iter = 308
+nu = 0.263501
+obj = -228.616437, rho = -0.453941
+nSV = 310, nBSV = 265
+Total nSV = 310
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  133:('*@*!@[#7]',0), # A$A!N
+processing 116
+*
+optimization finished, #iter = 307
+nu = 0.273000
+obj = -235.433905, rho = -0.461727
+nSV = 324, nBSV = 276
+Total nSV = 324
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  134:('[F,Cl,Br,I]',0), # X (HALOGEN)
+processing 117
+*
+optimization finished, #iter = 312
+nu = 0.263643
+obj = -228.394071, rho = -0.437765
+nSV = 311, nBSV = 269
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  135:('[#7]!:*:*',0), # Nnot%A%A
+processing 118
+*
+optimization finished, #iter = 280
+nu = 0.264575
+obj = -228.594765, rho = -0.426997
+nSV = 308, nBSV = 269
+Total nSV = 308
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  136:('[#8]=*',1), # O=A>1 
+processing 119
+*
+optimization finished, #iter = 285
+nu = 0.263492
+obj = -228.258973, rho = -0.442464
+nSV = 311, nBSV = 269
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  137:('[!C;!c;R]',0), # Heterocycle
+processing 120
+*
+optimization finished, #iter = 282
+nu = 0.263513
+obj = -228.420301, rho = -0.427294
+nSV = 310, nBSV = 271
+Total nSV = 310
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  138:('[!#6;!#1]~[CH2]~*',1), # QCH2A>1 (&...) FIX: incomplete definition
+processing 121
+*
+optimization finished, #iter = 299
+nu = 0.263328
+obj = -228.092128, rho = -0.442917
+nSV = 312, nBSV = 267
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  139:('[O;!H0]',0), # OH
+processing 122
+*
+optimization finished, #iter = 357
+nu = 0.271723
+obj = -237.068653, rho = -0.431871
+nSV = 322, nBSV = 271
+Total nSV = 322
+Accuracy = 86.8633% (648/746) (classification)
+############################################
+  140:('[#8]',3), # O > 3 (&...) FIX: incomplete definition
+processing 123
+*
+optimization finished, #iter = 296
+nu = 0.263438
+obj = -228.232472, rho = -0.452588
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  141:('[CH3]',2), # CH3 > 2  (&...) FIX: incomplete definition
+processing 124
+*
+optimization finished, #iter = 299
+nu = 0.263379
+obj = -228.216593, rho = -0.435375
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  142:('[#7]',1), # N > 1
+processing 125
+*
+optimization finished, #iter = 322
+nu = 0.263710
+obj = -228.256936, rho = -0.435969
+nSV = 313, nBSV = 268
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  143:('*@*!@[#8]',0), # A$A!O
+processing 126
+*
+optimization finished, #iter = 311
+nu = 0.264219
+obj = -228.658845, rho = -0.427828
+nSV = 315, nBSV = 271
+Total nSV = 315
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  144:('*!:*:*!:*',0), # Anot%A%Anot%A
+processing 127
+*
+optimization finished, #iter = 319
+nu = 0.263399
+obj = -228.216717, rho = -0.442855
+nSV = 313, nBSV = 265
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  145:('*1~*~*~*~*~*~1',1), # 6M ring > 1
+processing 128
+*
+optimization finished, #iter = 335
+nu = 0.263347
+obj = -228.162663, rho = -0.446639
+nSV = 314, nBSV = 266
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  146:('[#8]',2), # O > 2
+processing 129
+*
+optimization finished, #iter = 296
+nu = 0.263438
+obj = -228.232472, rho = -0.452588
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  147:('[$(*~[CH2]~[CH2]~*),$([R]1@[CH2;R]@[CH2;R]1)]',0), # ACH2CH2A
+processing 130
+*
+optimization finished, #iter = 315
+nu = 0.264012
+obj = -228.547229, rho = -0.437322
+nSV = 314, nBSV = 267
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  148:('*~[!#6;!#1](~*)~*',0), # AQ(A)A
+processing 131
+*
+optimization finished, #iter = 311
+nu = 0.263575
+obj = -228.314425, rho = -0.438901
+nSV = 311, nBSV = 267
+Total nSV = 311
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  149:('[C;H3,H4]',1), # CH3 > 1
+processing 132
+*
+optimization finished, #iter = 299
+nu = 0.263379
+obj = -228.216593, rho = -0.435375
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  150:('*!@*@*!@*',0), # A!A$A!A
+processing 133
+*
+optimization finished, #iter = 353
+nu = 0.264910
+obj = -230.057126, rho = -0.409104
+nSV = 317, nBSV = 268
+Total nSV = 317
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  151:('[#7;!H0]',0), # NH
+processing 134
+*
+optimization finished, #iter = 360
+nu = 0.266046
+obj = -230.853273, rho = -0.402596
+nSV = 318, nBSV = 266
+Total nSV = 318
+Accuracy = 87.2654% (651/746) (classification)
+############################################
+  152:('[#8]~[#6](~[#6])~[#6]',0), # OC(C)C
+processing 135
+*
+optimization finished, #iter = 299
+nu = 0.263983
+obj = -228.411978, rho = -0.445611
+nSV = 311, nBSV = 265
+Total nSV = 311
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  153:('[!#6;!#1]~[CH2]~*',0), # QCH2A
+processing 136
+*
+optimization finished, #iter = 299
+nu = 0.263328
+obj = -228.092128, rho = -0.442917
+nSV = 312, nBSV = 267
+Total nSV = 312
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  154:('[#6]=[#8]',0), # C=O
+processing 137
+*
+optimization finished, #iter = 288
+nu = 0.263455
+obj = -228.283853, rho = -0.437646
+nSV = 313, nBSV = 269
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  155:('*!@[CH2]!@*',0), # A!CH2!A
+processing 138
+*
+optimization finished, #iter = 281
+nu = 0.263242
+obj = -228.265599, rho = -0.458935
+nSV = 309, nBSV = 268
+Total nSV = 309
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  156:('[#7]~*(~*)~*',0), # NA(A)A
+processing 139
+*
+optimization finished, #iter = 306
+nu = 0.263817
+obj = -228.377581, rho = -0.432930
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  157:('[#6]-[#8]',0), # C-O
+processing 140
+*
+optimization finished, #iter = 294
+nu = 0.263757
+obj = -228.482044, rho = -0.418381
+nSV = 316, nBSV = 267
+Total nSV = 316
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  158:('[#6]-[#7]',0), # C-N
+processing 141
+*
+optimization finished, #iter = 333
+nu = 0.263848
+obj = -228.362387, rho = -0.430702
+nSV = 315, nBSV = 265
+Total nSV = 315
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  159:('[#8]',1), # O>1
+processing 142
+*
+optimization finished, #iter = 296
+nu = 0.263438
+obj = -228.232472, rho = -0.452588
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  160:('[C;H3,H4]',0), #CH3
+processing 143
+*
+optimization finished, #iter = 299
+nu = 0.263379
+obj = -228.216593, rho = -0.435375
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  161:('[#7]',0), # N
+processing 144
+*
+optimization finished, #iter = 322
+nu = 0.263710
+obj = -228.256936, rho = -0.435969
+nSV = 313, nBSV = 268
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  162:('a',0), # Aromatic
+processing 145
+*
+optimization finished, #iter = 301
+nu = 0.263744
+obj = -228.624192, rho = -0.450083
+nSV = 310, nBSV = 268
+Total nSV = 310
+Accuracy = 87.3995% (652/746) (classification)
+############################################
+  163:('*1~*~*~*~*~*~1',0), # 6M Ring
+processing 146
+*
+optimization finished, #iter = 335
+nu = 0.263347
+obj = -228.162663, rho = -0.446639
+nSV = 314, nBSV = 266
+Total nSV = 314
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  164:('[#8]',0), # O
+processing 147
+*
+optimization finished, #iter = 296
+nu = 0.263438
+obj = -228.232472, rho = -0.452588
+nSV = 313, nBSV = 267
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
+############################################
+  165:('[R]',0), # Ring 
+processing 148
+*
+optimization finished, #iter = 335
+nu = 0.263504
+obj = -228.270727, rho = -0.428001
+nSV = 313, nBSV = 265
+Total nSV = 313
+Accuracy = 87.5335% (653/746) (classification)
